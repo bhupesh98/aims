@@ -1,26 +1,26 @@
 [
     {
       "id": 1,
-      "name": "Dr. John Doe",
-      "role": "Lead Researcher",
+      "name": "Prof. Shekhar Verma",
+      "role": "Professor",
       "image": "/image.jpg"
     },
     {
       "id": 2,
-      "name": "Prof. Jane Smith",
-      "role": "Senior Scientist",
+      "name": "Prof. Pavan Chakraborty",
+      "role": "Professor",
       "image": "/image.jpg"
     },
     {
       "id": 3,
-      "name": "Dr. Alice Johnson",
-      "role": "Research Associate",
+      "name": "Dr. K. P. Singh",
+      "role": "Associate Professor",
       "image": "/image.jpg"
     },
     {
       "id": 4,
-      "name": "Prof. Jane Smith",
-      "role": "Senior Scientist",
+      "name": "Dr. Muneendra Ojha",
+      "role": "Assistant Professor",
       "image": "/image.jpg"
     },
     {
