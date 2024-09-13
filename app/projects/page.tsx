@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { SearchBar } from "@/components";
-import { projects } from "@/lib/data";
+import projects from "@/data/projects.json";
 import Image from "next/image";
 
 export default function Projects() {

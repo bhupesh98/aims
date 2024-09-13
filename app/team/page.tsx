@@ -1,4 +1,4 @@
-import { team } from "@/lib/data";
+import team from "@/data/team.json";
 import Image from "next/image";
 
 export default function Team() {

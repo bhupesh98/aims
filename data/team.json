@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "role": "Lead Researcher",
+      "image": "/image.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Prof. Jane Smith",
+      "role": "Senior Scientist",
+      "image": "/image.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Alice Johnson",
+      "role": "Research Associate",
+      "image": "/image.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Prof. Jane Smith",
+      "role": "Senior Scientist",
+      "image": "/image.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Alice Johnson",
+      "role": "Research Associate",
+      "image": "/image.jpg"
+    }
+]

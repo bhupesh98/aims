@@ -1,0 +1,59 @@
+{
+    "title": "IIIT Allahabad",
+    "description": "The Indian Institute of Information Technology, Allahabad (IIIT-Allahabad), is a public university located in Jhalwa, Prayagraj district, in Uttar Pradesh.",
+    "keywords": "IIIT Allahabad, IIIT, Indian Institute of Information Technology",
+    "logo": "https://it.iiita.ac.in/images/IIIT_logo_transparent.gif",
+    "navigation": [
+        { "name": "Home", "path": "/"
+        },
+        { "name": "Projects", "path": "/projects"
+        },
+        { "name": "Publications", "path": "/publications"
+        },
+        { "name": "Team", "path": "/team"
+        }
+    ],
+    "footer": {
+        "Important Links": [
+            {
+          "name": "Vision",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "Research",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "People",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "Contact",
+          "url": "https://www.iiita.ac.in"
+            }
+        ],
+        "Information": [
+            {
+          "name": "Alumni",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "Administrative staff",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "Research staff",
+          "url": "https://www.iiita.ac.in"
+            },
+            {
+          "name": "Courses",
+          "url": "https://www.iiita.ac.in"
+            }
+        ]
+    },
+    "contact": {
+      "address": "IIIT Rd, Indian Institute of Information Technology, Jhalwa, Prayagraj, Saha Urf Pipalgaon, Uttar Pradesh 211012",
+      "phone": "+91 76792 95725",
+      "email": "rsi2021001@iiita.ac.in"
+    }
+}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { siteData } from "@/lib/data";
+import siteData from "@/data/sitedata.json";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { MenuIcon, XIcon } from "lucide-react";

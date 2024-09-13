@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { SearchBar } from "@/components/SearchBar";
-import { publications } from "@/lib/data";
+import publications from "@/data/publications.json";
 import { FileText, Github, Globe } from "lucide-react";
 
 export default function Publications() {

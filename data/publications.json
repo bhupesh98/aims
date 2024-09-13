@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Advancements in Machine Learning",
+        "authors": "John Doe, Jane Smith",
+        "journal": "Journal of AI Research",
+        "year": 2023,
+        "links": {
+            "website": "https://iiita.ac.in",
+            "pdf": "https://iiita.ac.in",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Sustainable Energy: A New Approach",
+        "authors": "Alice Johnson, Bob Williams",
+        "journal": "Renewable Energy Quarterly",
+        "year": 2022,
+        "links": {
+            "website": "https://iiita.ac.in",
+            "pdf": "https://iiita.ac.in",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Quantum Computing: The Next Frontier",
+        "authors": "Charlie Brown, Diana Prince",
+        "journal": "Quantum Science Review",
+        "year": 2023,
+        "links": {
+            "website": "https://iiita.ac.in",
+            "pdf": "https://iiita.ac.in",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Quantum Computing: The Next Frontier",
+        "authors": "Charlie Brown, Diana Prince",
+        "journal": "Quantum Science Review",
+        "year": 2023,
+        "links": {
+            "website": "https://iiita.ac.in",
+            "pdf": "https://iiita.ac.in",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners",
+        "authors": "Yue Yang*, Fan-Yun Sun*, Luca Weihs*, Eli VanderBilt, Alvaro Herrasti, Winson Han, Jiajun Wu, Nick Haber, Ranjay Krishna, Lingjie Liu, Chris Callison-Burch, Mark Yatskar, Aniruddha Kembhavi, Christopher Clark",
+        "journal": "CVPR",
+        "year": 2021,
+        "links": {
+            "website": "https://arxiv.org/abs/2103.11543",
+            "pdf": "https://arxiv.org/pdf/2103.11543.pdf",
+            "github": "https://github.com"
+        }
+    }
+]

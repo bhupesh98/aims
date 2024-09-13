@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { siteData } from "@/lib/data";
+import siteData from "@/data/sitedata.json";
 
 export function Footer() {
   const jsonObject: Record<string, any> = siteData.footer;
