@@ -25,8 +25,9 @@
     },
     {
       "id": 5,
-      "name": "Dr. Alice Johnson",
-      "role": "Research Associate",
+      "name": "Arindam Ghosh",
+      "role": "PhD Student",
+      "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
       "image": "/image.jpg"
     }
 ]
