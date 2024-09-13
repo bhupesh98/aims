@@ -6,11 +6,15 @@
     "navigation": [
         { "name": "Home", "path": "/"
         },
-        { "name": "Projects", "path": "/projects"
+        { "name": "About", "path": "/about"
+        },
+        { "name": "People", "path": "/people"
+        },
+        { "name": "research", "path": "/research"
         },
         { "name": "Publications", "path": "/publications"
         },
-        { "name": "Team", "path": "/team"
+        { "name": "Contact", "path": "/contact"
         }
     ],
     "footer": {
@@ -52,8 +56,8 @@
         ]
     },
     "contact": {
-      "address": "IIIT Rd, Indian Institute of Information Technology, Jhalwa, Prayagraj, Saha Urf Pipalgaon, Uttar Pradesh 211012",
-      "phone": "+91 76792 95725",
-      "email": "rsi2021001@iiita.ac.in"
+      "address": "CC2 Building, Room No. 4314, Indian Institute of Information Technology Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
+      "phone": "+91 9899364673",
+      "email": "muneendra@iiita.ac.in"
     }
 }
