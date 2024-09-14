@@ -42,20 +42,20 @@
   "footer": {
     "Important Links": [
       {
-        "name": "Vision",
-        "url": "https://www.iiita.ac.in"
+        "name": "About",
+        "url": "/about"
       },
       {
         "name": "Research",
-        "url": "https://www.iiita.ac.in"
+        "url": "/research"
       },
       {
         "name": "People",
-        "url": "https://www.iiita.ac.in"
+        "url": "/people"
       },
       {
         "name": "Contact",
-        "url": "https://www.iiita.ac.in"
+        "url": "/contact"
       },
       {
         "name": "Github",

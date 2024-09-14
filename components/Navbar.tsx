@@ -17,12 +17,12 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image src={siteData.logo} alt="Logo" width={40} height={40} />
-            <span className="ml-4 text-xl font-semibold">
+            <span className="ml-4 text-lg font-semibold">
               {siteData.navBarTitle}
             </span>
           </Link>
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex space-x-4">
+          <ul className="hidden lg:flex space-x-4">
             {siteData.navigation.map((item) => (
               <li key={item.name}>
                 <Link
@@ -42,7 +42,7 @@ export function Navbar() {
           {/* Mobile Navigation Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-md border hover:bg-zinc-100 transition-colors focus:outline-none"
+            className="lg:hidden p-2 rounded-md border hover:bg-zinc-100 transition-colors focus:outline-none"
           >
             {isMobileMenuOpen ? (
               <XIcon className="w-6 h-6" />
@@ -55,11 +55,11 @@ export function Navbar() {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div
-            className={`md:hidden ${
+            className={`lg:hidden ${
               isMobileMenuOpen ? "opacity-100" : "opacity-0"
             }`}
           >
-            <ul className="md:hidden mt-4 space-y-2">
+            <ul className="lg:hidden mt-4 space-y-2">
               {siteData.navigation.map((item) => (
                 <li key={item.name}>
                   <Link

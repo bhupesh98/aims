@@ -1,21 +1,24 @@
 import Image from "next/image";
 import siteData from "@/data/sitedata.json";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   const jsonObject: Record<string, any> = siteData.footer;
   return (
     <footer className="bg-gray-900 text-white py-4">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
           <span className="flex flex-col lg:flex-row space-x-4 space-y-4 items-center">
             <Image
               src={siteData.logo}
               alt="IIIT Allahabad Logo"
-              width={100}
-              height={100}
+              width={80}
+              height={80}
               className="object-left-top object-contain"
             />
-            <p className="font-semibold text-sm lg:text-base">{siteData.navBarTitle}</p>
+            <p className="font-semibold text-sm">
+              {siteData.navBarTitle}
+            </p>
           </span>
           {Object.keys(jsonObject).map((key) => (
             <div key={key}>
@@ -34,13 +37,17 @@ export function Footer() {
               </ul>
             </div>
           ))}
-          <div>
+          <div className="order-last">
             <h3 className="text-lg font-semibold mb-4 text-red-600">
               CONTACT US
             </h3>
-            <div className="space-y-2">
-              <p>Address: {siteData.contact.address}</p>
-              <p>
+            <div>
+              <div className="">
+                <MapPin size={16} className="mr-2 float-left mt-1" />
+                <p>Address: {siteData.contact.address}</p>
+              </div>
+              <p className="flex items-center">
+                <Phone size={16} className="mr-2" />
                 <a href={`tel:${siteData.contact.phone}`}>
                   Contact:{" "}
                   <b className="hover:opacity-75 transition-opacity font-normal">
@@ -48,7 +55,8 @@ export function Footer() {
                   </b>
                 </a>
               </p>
-              <p>
+              <p className="flex items-center">
+                <Mail size={16} className="mr-2" />
                 <a href={`mailto:${siteData.contact.email}`}>
                   E-mail:{" "}
                   <b className="hover:opacity-75 transition-opacity font-normal">
