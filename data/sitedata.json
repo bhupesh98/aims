@@ -4,11 +4,13 @@
   "keywords": [
     "AIMS IIITA",
     "Artificial Intelligence Lab",
+    "Multi Agent System Lab",
+    "Swarm Robotics",
     "IIITA",
     "Indian Institute of Information Technology"
   ],
   "logo": "https://it.iiita.ac.in/images/IIIT_logo_transparent.gif",
-  "navBarTitle": "Artificial Intelligence & Multi-Agent Systems Lab",
+  "navBarTitle": "Artificial Intelligence & Multi-Agent Systems (AIMS) Lab",
   "navigation": [
     {
       "name": "Home",
