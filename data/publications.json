@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "title": "Advancements in Machine Learning",
         "authors": "John Doe, Jane Smith",
         "journal": "Journal of AI Research",
@@ -12,7 +11,6 @@
         }
     },
     {
-        "id": 2,
         "title": "Sustainable Energy: A New Approach",
         "authors": "Alice Johnson, Bob Williams",
         "journal": "Renewable Energy Quarterly",
@@ -24,7 +22,6 @@
         }
     },
     {
-        "id": 3,
         "title": "Quantum Computing: The Next Frontier",
         "authors": "Charlie Brown, Diana Prince",
         "journal": "Quantum Science Review",
@@ -36,7 +33,6 @@
         }
     },
     {
-        "id": 5,
         "title": "Quantum Computing: The Next Frontier",
         "authors": "Charlie Brown, Diana Prince",
         "journal": "Quantum Science Review",
@@ -48,7 +44,6 @@
         }
     },
     {
-        "id": 4,
         "title": "Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners",
         "authors": "Yue Yang*, Fan-Yun Sun*, Luca Weihs*, Eli VanderBilt, Alvaro Herrasti, Winson Han, Jiajun Wu, Nick Haber, Ranjay Krishna, Lingjie Liu, Chris Callison-Burch, Mark Yatskar, Aniruddha Kembhavi, Christopher Clark",
         "journal": "CVPR",

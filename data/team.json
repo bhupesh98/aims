@@ -1,30 +1,29 @@
 [
     {
-      "id": 1,
       "name": "Prof. Shekhar Verma",
       "role": "Professor",
+      "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
       "image": "/image.jpg"
     },
     {
-      "id": 2,
       "name": "Prof. Pavan Chakraborty",
       "role": "Professor",
+      "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
       "image": "/image.jpg"
     },
     {
-      "id": 3,
       "name": "Dr. K. P. Singh",
       "role": "Associate Professor",
+      "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
       "image": "/image.jpg"
     },
     {
-      "id": 4,
       "name": "Dr. Muneendra Ojha",
       "role": "Assistant Professor",
+      "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
       "image": "/image.jpg"
     },
     {
-      "id": 5,
       "name": "Arindam Ghosh",
       "role": "PhD Student",
       "research interest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",

@@ -4,6 +4,7 @@ import "./globals.css";
 import NextTopLoader from "nextjs-toploader";
 import { ViewTransitions } from "next-view-transitions";
 import { Navbar, Footer } from "@/components";
+import siteData from "@/data/sitedata.json";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,9 +18,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "AIMS Lab | IIITA",
-  description:
-    "Artificial Intelligence & Multi-Agent Systems Lab by Indian Institute of Information Technology, Allahabad",
+  title: siteData.title,
+  description: siteData.description,
+  keywords: siteData.keywords,
 };
 
 export default function RootLayout({

@@ -20,7 +20,7 @@ export default function Publications() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredPublications.map((publication) => (
           <div
-            key={publication.id}
+            key={publication.title}
             className="bg-white p-5 rounded-lg shadow-md flex flex-col justify-around h-full"
           >
             <h3 className="text-xl font-semibold mb-2">{publication.title}</h3>

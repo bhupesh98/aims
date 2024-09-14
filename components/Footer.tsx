@@ -4,17 +4,19 @@ import siteData from "@/data/sitedata.json";
 export function Footer() {
   const jsonObject: Record<string, any> = siteData.footer;
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-4">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
+          <span className="flex flex-col lg:flex-row space-x-4 space-y-4 items-center">
             <Image
               src={siteData.logo}
               alt="IIIT Allahabad Logo"
               width={100}
               height={100}
+              className="object-left-top object-contain"
             />
-          </div>
+            <p className="font-semibold text-sm lg:text-base">{siteData.navBarTitle}</p>
+          </span>
           {Object.keys(jsonObject).map((key) => (
             <div key={key}>
               <h3 className="text-lg font-semibold mb-4 text-red-600">
@@ -57,13 +59,13 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-8 border-gray" />
-        <div className="mt-8 text-center">
+        <hr className="my-4 border-gray" />
+        <div className="text-center text-sm">
           <p>
-            <b className="text-gray-400">
+            <b className="text-gray-400 pr-1">
               ©Copyright {new Date().getFullYear()}
             </b>
-            , Indian Institute of Information Technology, Allahabad
+            Indian Institute of Information Technology Allahabad
           </p>
           <p>
             <b className="text-gray-400">Developed & Maintained by:</b> AIMS lab

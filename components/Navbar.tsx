@@ -18,11 +18,11 @@ export function Navbar() {
           <Link href="/" className="flex items-center">
             <Image src={siteData.logo} alt="Logo" width={40} height={40} />
             <span className="ml-4 text-xl font-semibold">
-              AIMS | Indian Institute of Information Technology Allahabad
+              {siteData.navBarTitle}
             </span>
           </Link>
           {/* Desktop Navigation */}
-          <ul className=" hidden md:flex space-x-4">
+          <ul className="hidden md:flex space-x-4">
             {siteData.navigation.map((item) => (
               <li key={item.name}>
                 <Link
@@ -33,7 +33,7 @@ export function Navbar() {
                       : "hover:bg-red-100"
                   }`}
                 >
-                  {item.name}
+                  {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                 </Link>
               </li>
             ))}
@@ -55,8 +55,8 @@ export function Navbar() {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div
-            className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out transform ${
-              isMobileMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+            className={`md:hidden ${
+              isMobileMenuOpen ? "opacity-100" : "opacity-0"
             }`}
           >
             <ul className="md:hidden mt-4 space-y-2">

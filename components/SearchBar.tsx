@@ -28,12 +28,14 @@ export function SearchBar({ data, keys, onSearch }: SearchBarProps) {
   };
 
   return (
-    <input
-      type="text"
-      placeholder="Search..."
-      value={query}
-      onChange={handleSearch}
-      className="w-full lg:w-2/3 p-2 mb-4 border-2 rounded"
-    />
+    <div className="flex items-center mb-4 gap-3">
+      <input
+        type="text"
+        placeholder="Search..."
+        value={query}
+        onChange={handleSearch}
+        className="w-full lg:w-2/3 p-2 border-2 rounded-md"
+      />
+    </div>
   );
 }

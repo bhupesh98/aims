@@ -1,63 +1,89 @@
 {
-    "title": "IIIT Allahabad",
-    "description": "The Indian Institute of Information Technology, Allahabad (IIIT-Allahabad), is a public university located in Jhalwa, Prayagraj district, in Uttar Pradesh.",
-    "keywords": "IIIT Allahabad, IIIT, Indian Institute of Information Technology",
-    "logo": "https://it.iiita.ac.in/images/IIIT_logo_transparent.gif",
-    "navigation": [
-        { "name": "Home", "path": "/"
-        },
-        { "name": "About", "path": "/about"
-        },
-        { "name": "People", "path": "/people"
-        },
-        { "name": "research", "path": "/research"
-        },
-        { "name": "Publications", "path": "/publications"
-        },
-        { "name": "Contact", "path": "/contact"
-        }
-    ],
-    "footer": {
-        "Important Links": [
-            {
-          "name": "Vision",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "Research",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "People",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "Contact",
-          "url": "https://www.iiita.ac.in"
-            }
-        ],
-        "Information": [
-            {
-          "name": "Alumni",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "Administrative staff",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "Research staff",
-          "url": "https://www.iiita.ac.in"
-            },
-            {
-          "name": "Courses",
-          "url": "https://www.iiita.ac.in"
-            }
-        ]
+  "title": "AIMS | IIITA",
+  "description": "The Indian Institute of Information Technology, Allahabad (IIIT-Allahabad), is a public university located in Jhalwa, Prayagraj district, in Uttar Pradesh.",
+  "keywords": [
+    "AIMS IIITA",
+    "Artificial Intelligence Lab",
+    "IIITA",
+    "Indian Institute of Information Technology"
+  ],
+  "logo": "https://it.iiita.ac.in/images/IIIT_logo_transparent.gif",
+  "navBarTitle": "Artificial Intelligence & Multi-Agent Systems Lab",
+  "navigation": [
+    {
+      "name": "Home",
+      "path": "/"
     },
-    "contact": {
-      "address": "CC2 Building, Room No. 4314, Indian Institute of Information Technology Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
-      "phone": "+91 9899364673",
-      "email": "muneendra@iiita.ac.in"
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "People",
+      "path": "/people"
+    },
+    {
+      "name": "research",
+      "path": "/research"
+    },
+    {
+      "name": "Publications",
+      "path": "/publications"
+    },
+    {
+      "name": "Contact",
+      "path": "/contact"
+    },
+    {
+      "name": "Github",
+      "path": "https://github.com/AIMSIIITA"
     }
+  ],
+  "footer": {
+    "Important Links": [
+      {
+        "name": "Vision",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Research",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "People",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Contact",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/AIMSIIITA"
+      }
+    ],
+    "Information": [
+      {
+        "name": "Alumni",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Administrative staff",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Research staff",
+        "url": "https://www.iiita.ac.in"
+      },
+      {
+        "name": "Courses",
+        "url": "https://www.iiita.ac.in"
+      }
+    ]
+  },
+  "contact": {
+    "address": "CC2 Building, Room No. 4314, Indian Institute of Information Technology Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
+    "phone": "+91 9899364673",
+    "email": "muneendra@iiita.ac.in"
+  }
 }
