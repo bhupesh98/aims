@@ -1,15 +1,10 @@
 'use client';
-import { useState } from "react";
+import React from "react";
 import Fuse from "fuse.js";
-
-type SearchBarProps = {
-  data: any[];
-  keys: string[];
-  onSearch: (results: any[]) => void;
-};
+import { SearchBarProps } from "@/data/types";
 
 export function SearchBar({ data, keys, onSearch }: SearchBarProps) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = React.useState<string>("");
 
   const fuse = new Fuse(data, {
     keys: keys,

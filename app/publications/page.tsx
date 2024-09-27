@@ -1,13 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import React from "react";
 import { SearchBar } from "@/components/SearchBar";
 import publications from "@/data/publications.json";
 import { FileText, Github, Globe } from "lucide-react";
 
 export default function Publications() {
   const [filteredPublications, setFilteredPublications] =
-    useState(publications);
+    React.useState(publications);
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function Publications() {
         onSearch={setFilteredPublications}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredPublications.map((publication) => (
+        {filteredPublications.length ? filteredPublications.map((publication) => (
           <div
             key={publication.title}
             className="bg-white p-5 rounded-lg shadow-md flex flex-col justify-around h-full"
@@ -67,7 +67,7 @@ export default function Publications() {
               )}
             </div>
           </div>
-        ))}
+        )) : <p className="text-red-700 text-xl text-center">No publications found</p>}
       </div>
     </>
   );

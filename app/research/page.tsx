@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import React from "react";
 import { SearchBar } from "@/components";
 import projects from "@/data/research.json";
 import Image from "next/image";
 
 export default function Projects() {
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [filteredProjects, setFilteredProjects] = React.useState(projects);
 
   return (
     <>
@@ -14,10 +14,10 @@ export default function Projects() {
       <SearchBar
         data={projects}
         keys={["title", "description"]}
-        onSearch={setFilteredProjects}
+        onSearch={(result) => setFilteredProjects(result)}
       />
       <div className="flex flex-col gap-6">
-        {filteredProjects.map((project) => (
+        {filteredProjects.length ? filteredProjects.map((project) => (
           <div key={project.title} className="bg-white border gap-4 p-4 rounded-lg shadow-md flex">
             <Image
               src={project.image}
@@ -31,7 +31,7 @@ export default function Projects() {
               <p className="text-gray-600">{project.description}</p>
             </div>
           </div>
-        ))}
+        )) : <p className="text-red-700 text-xl text-center">No projects found</p>}
       </div>
     </>
   );

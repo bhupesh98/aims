@@ -10,7 +10,7 @@
     "Indian Institute of Information Technology"
   ],
   "logo": "https://it.iiita.ac.in/images/IIIT_logo_transparent.gif",
-  "navBarTitle": "Artificial Intelligence & Multi-Agent Systems (AIMS) Lab",
+  "navBarTitle": "Artificial Intelligence & Multi-Agent Systems (AIMS) Lab | IIITA",
   "navigation": [
     {
       "name": "Home",
@@ -86,6 +86,14 @@
   "contact": {
     "address": "CC2 Building, Room No. 4314, Indian Institute of Information Technology Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
     "phone": "+91 9899364673",
-    "email": "muneendra@iiita.ac.in"
+    "email": "muneendra@iiita.ac.in",
+    "officeHours": "Monday to Friday, 9:00 AM to 5:00 PM IST",
+    "links": {
+      "linkedin": "https://www.linkedin.com/",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/"
+    },
+    "mapsLocationURL": ""
   }
 }

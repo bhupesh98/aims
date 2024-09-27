@@ -12,8 +12,8 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-md">
-      <nav className="container mx-auto px-6 py-4">
+    <header className="bg-white shadow-md sticky top-0 z-10">
+      <nav className="px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image src={siteData.logo} alt="Logo" width={40} height={40} />
