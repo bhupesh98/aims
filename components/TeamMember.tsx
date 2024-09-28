@@ -12,7 +12,9 @@ export default function TeamMember({
     case CardSize.SMALL:
       return (
         <div className="border p-4 rounded-lg hover:shadow-lg transition-shadow">
-          <h3 className="text-xl font-semibold mt-2">{person.name}</h3>
+          <a href={person.link}>
+            <h3 className={`text-xl ${ person.link && 'transition-colors hover:text-red-600 hover:underline underline-offset-4'} font-semibold mt-2`}>{person.name}</h3>
+          </a>
           <p className="text-gray-600">{person.role}</p>
           <a href={`mailto: ${person.email}`} className="underline">
             {person.email}
@@ -32,7 +34,9 @@ export default function TeamMember({
           />
 
           <center>
-            <h3 className="text-xl font-semibold mt-2">{person.name}</h3>
+            <a href={person.link}>
+              <h3 className={`text-xl ${ person.link && 'transition-colors hover:text-red-600 hover:underline underline-offset-4'}  font-semibold mt-2`}>{person.name}</h3>
+            </a>
             <p className="text-gray-600">{person.role}</p>
             <p className="">{person.researchInterest}</p>
             <a href={`mailto: ${person.email}`} className="underline">
@@ -53,7 +57,9 @@ export default function TeamMember({
             className="object-contain rounded-lg"
           />
           <div>
-            <h4 className="text-xl font-semibold mt-2">{person.name}</h4>
+            <a href={person.link}>
+              <h4 className={`text-xl ${ person.link && 'transition-colors hover:text-red-600 hover:underline underline-offset-4'} font-semibold mt-2`}>{person.name}</h4>
+            </a>
             <p className="text-gray-600">{person.role}</p>
             <a href={`mailto: ${person.email}`} className="underline">
               {person.email}

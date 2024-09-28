@@ -16,7 +16,7 @@ export function Footer() {
               height={80}
               className="object-left-top object-contain"
             />
-            <p className="font-semibold text-sm">
+            <p className="font-semibold text-lg">
               {siteData.navBarTitle}
             </p>
           </span>
@@ -44,7 +44,7 @@ export function Footer() {
             <div>
               <div className="">
                 <MapPin size={16} className="mr-2 float-left mt-1" />
-                <p>Address: {siteData.contact.address}</p>
+                <p>{siteData.contact.address}</p>
               </div>
               <p className="flex items-center">
                 <Phone size={16} className="mr-2" />

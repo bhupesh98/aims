@@ -8,6 +8,7 @@
         "role": "Professor",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "sverma@iiita.ac.in",
+        "link": "https://it.iiita.ac.in/?pg=facultypage&uid=sverma",
         "image": "/image.jpg"
       },
       {
@@ -15,6 +16,7 @@
         "role": "Professor",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "pavan@iiita.ac.in",
+        "link": "https://it.iiita.ac.in/?pg=facultypage&uid=pavan",
         "image": "/image.jpg"
       },
       {
@@ -22,6 +24,7 @@
         "role": "Associate Professor",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "kpsingh@iiita.ac.in",
+        "link": "https://it.iiita.ac.in/?pg=facultypage&uid=kpsingh",
         "image": "/image.jpg"
       },
       {
@@ -29,6 +32,7 @@
         "role": "Assistant Professor",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "muneendra@iiita.ac.in",
+        "link": "https://it.iiita.ac.in/?pg=facultypage&uid=muneendrain",
         "image": "/image.jpg"
       }
     ]
@@ -81,50 +85,73 @@
     ]
   },
   {
-    "name": "Alumni - PhD Scholars",
-    "size": "small",
-    "members": [
+    "name": "Bachelors Students",
+    "size": "medium",
+    "members":[
       {
-        "name": "Arindam Ghosh",
-        "role": "PhD Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
-        "email": "rsi2021001@iiita.ac.in",
+        "name": "Bhupesh Dewangan",
+        "role": "B.Tech Student",
+        "email": "iit2022042@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Debjyoti Ray",
+        "role": "B.Tech Student",
+        "email": "iec2022111@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Vatsal Bhuva",
+        "role": "B.Tech Student",
+        "email": "iit2022004@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Rishi Upadhyay",
+        "role": "B.Tech Student",
+        "email": "iit2022013@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Siddharth Singh",
+        "role": "B.Tech Student",
+        "email": "iit2022003@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Harshal Gainer",
+        "role": "B.Tech Student",
+        "email": "iit2022104@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Vineesh Mittal",
+        "role": "B.Tech Student",
+        "email": "iit2022036@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Swaroop Dora",
+        "role": "B.Tech Student",
+        "email": "iit2022052@iiita.ac.in",
+        "image": "/image.jpg"
+      },
+      {
+        "name": "Piyush Tiwari",
+        "role": "B.Tech Student",
+        "email": "iit2022020@iiita.ac.in",
         "image": "/image.jpg"
       }
     ]
   },
   {
+    "name": "Alumni - PhD Scholars",
+    "size": "small",
+    "members": []
+  },
+  {
     "name": "Alumni - Masters Students",
     "size": "small",
-    "members":[
-      {
-        "name": "Atul Chourasia",
-        "role": "MTech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
-        "email": "mhc2023002@iiita.ac.in",
-        "image": "/image.jpg"
-      },
-      {
-        "name": "Manu Pande",
-        "role": "MTech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
-        "email": "mml2023005@iiita.ac.in",
-        "image": "/image.jpg"
-      },
-      {
-        "name": "Anay Yatin Damle",
-        "role": "MTech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
-        "email": "mml2023016@iiita.ac.in",
-        "image": "/image.jpg"
-      },
-      {
-        "name": "Shahil Kumar",
-        "role": "MTech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
-        "email": "mml2023008@iiita.ac.in",
-        "image": "/image.jpg"
-      }
-    ]
+    "members":[]
   }
 ]

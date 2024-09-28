@@ -5,6 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import { ViewTransitions } from "next-view-transitions";
 import { Navbar, Footer } from "@/components";
 import siteData from "@/data/sitedata.json";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,6 +44,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </ViewTransitions>
+        <Toaster />
       </body>
     </html>
   );

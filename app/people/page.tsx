@@ -25,24 +25,21 @@ export default function Team() {
       <h1 className="text-4xl font-bold mb-6 text-red-700">Our Team</h1>
       <div className="flex flex-row">
         {/* Sidebar */}
-        <div className="hidden md:block md:w-1/5">
-          <ul className="space-y-2">
-            {team.map((category) => (
-              <li key={category.name}>
-                <Button
-                  variant={"link"}
-                  onClick={() => handleScroll(category.name)}
-                  className={`w-full p-2 rounded transition-colors ${
-                    selectedCategory === category.name
-                      ? "bg-blue-800 text-white"
-                      : "hover:bg-zinc-200"
-                  }`}
-                >
-                  {category.name}
-                </Button>
-              </li>
-            ))}
-          </ul>
+        <div className="hidden md:block h-full sticky top-20 md:w-1/5 space-y-2">
+          {team.map((category) => (
+            <Button
+              key={category.name}
+              variant={"link"}
+              onClick={() => handleScroll(category.name)}
+              className={`w-full p-2 rounded transition-colors text-wrap ${
+                selectedCategory === category.name
+                  ? "bg-red-800 text-white"
+                  : "hover:bg-zinc-200"
+              }`}
+            >
+              {category.name}
+            </Button>
+          ))}
         </div>
 
         {/* Main content */}
@@ -53,7 +50,9 @@ export default function Team() {
                 <h2 className="text-3xl text-red-600 font-semibold mb-4">
                   {category.name}
                 </h2>
-                <div className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4`}>
+                <div
+                  className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4`}
+                >
                   {category.members.map((person) => (
                     <TeamMember
                       key={person.name}
@@ -63,7 +62,7 @@ export default function Team() {
                   ))}
                 </div>
               </div>
-              <hr className="mt-4"/>
+              <hr className="mt-4" />
             </div>
           ))}
         </div>

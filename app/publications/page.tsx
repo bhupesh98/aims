@@ -17,57 +17,67 @@ export default function Publications() {
         keys={["title", "authors", "journal"]}
         onSearch={setFilteredPublications}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredPublications.length ? filteredPublications.map((publication) => (
-          <div
-            key={publication.title}
-            className="bg-white p-5 rounded-lg shadow-md flex flex-col justify-around h-full"
-          >
-            <h3 className="text-xl font-semibold mb-2">{publication.title}</h3>
-            <p className="text-gray-600 mb-2">{publication.authors}</p>
-            <p className="text-gray-500">
-              {publication.journal}, {publication.year}
-            </p>
-            <div className="flex space-x-2 mt-3 pt-3 border-t">
-              {publication.links.website && (
-                <a
-                  href={publication.links.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-zinc-100 border border-gray-300 transition-colors"
-                  aria-label={`Visit website for ${publication.title}`}
-                >
-                  <Globe size={16} className="mr-1" />
-                  Website
-                </a>
-              )}
-              {publication.links.github && (
-                <a
-                  href={publication.links.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-zinc-100 border border-gray-300 transition-colors"
-                  aria-label={`View code for ${publication.title}`}
-                >
-                  <Github size={16} className="mr-1" />
-                  Code
-                </a>
-              )}
-              {publication.links.pdf && (
-                <a
-                  href={publication.links.pdf}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-slate-100 border border-gray-300 transition-colors"
-                  aria-label={`Download PDF for ${publication.title}`}
-                >
-                  <FileText size={16} className="mr-1" />
-                  PDF
-                </a>
-              )}
+      <div className="flex flex-col gap-6">
+        {filteredPublications.length ? (
+          filteredPublications.map((publication) => (
+            <div
+              key={publication.title}
+              className="bg-white p-5 rounded-lg shadow-md flex justify-between border items-start h-full"
+            >
+              <div className="flex flex-col">
+                <h3 className="text-xl font-semibold mb-2">
+                  {publication.title}
+                </h3>
+                <p className="text-gray-600 mb-2">{publication.authors}</p>
+                <p className="text-gray-500">
+                  {publication.journal}, {publication.year}
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                {publication.links.website && (
+                  <a
+                    href={publication.links.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-zinc-100 border border-gray-300 transition-colors"
+                    aria-label={`Visit website for ${publication.title}`}
+                  >
+                    <Globe size={16} className="mr-1" />
+                    Website
+                  </a>
+                )}
+                {publication.links.github && (
+                  <a
+                    href={publication.links.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-zinc-100 border border-gray-300 transition-colors"
+                    aria-label={`View code for ${publication.title}`}
+                  >
+                    <Github size={16} className="mr-1" />
+                    Code
+                  </a>
+                )}
+                {publication.links.pdf && (
+                  <a
+                    href={publication.links.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-1 rounded-lg text-sm hover:bg-slate-100 border border-gray-300 transition-colors"
+                    aria-label={`Download PDF for ${publication.title}`}
+                  >
+                    <FileText size={16} className="mr-1" />
+                    PDF
+                  </a>
+                )}
+              </div>
             </div>
-          </div>
-        )) : <p className="text-red-700 text-xl text-center">No publications found</p>}
+          ))
+        ) : (
+          <p className="text-red-700 text-xl text-center">
+            No publications found
+          </p>
+        )}
       </div>
     </>
   );
