@@ -9,7 +9,7 @@
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "sverma@iiita.ac.in",
         "link": "https://it.iiita.ac.in/?pg=facultypage&uid=sverma",
-        "image": "/image.jpg"
+        "image": "/faculty/sverma.jpg"
       },
       {
         "name": "Prof. Pavan Chakraborty",
@@ -17,7 +17,7 @@
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "pavan@iiita.ac.in",
         "link": "https://it.iiita.ac.in/?pg=facultypage&uid=pavan",
-        "image": "/image.jpg"
+        "image": "/faculty/pavan.jpg"
       },
       {
         "name": "Dr. K. P. Singh",
@@ -25,7 +25,7 @@
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "kpsingh@iiita.ac.in",
         "link": "https://it.iiita.ac.in/?pg=facultypage&uid=kpsingh",
-        "image": "/image.jpg"
+        "image": "/faculty/kpsingh.jpg"
       },
       {
         "name": "Dr. Muneendra Ojha",
@@ -33,7 +33,7 @@
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "muneendra@iiita.ac.in",
         "link": "https://it.iiita.ac.in/?pg=facultypage&uid=muneendrain",
-        "image": "/image.jpg"
+        "image": "/faculty/muneendra.jpg"
       }
     ]
   },
@@ -92,55 +92,55 @@
         "name": "Bhupesh Dewangan",
         "role": "B.Tech Student",
         "email": "iit2022042@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/bhupesh.jpg"
       },
       {
         "name": "Debjyoti Ray",
         "role": "B.Tech Student",
         "email": "iec2022111@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/debjyoti.jpg"
       },
       {
         "name": "Vatsal Bhuva",
         "role": "B.Tech Student",
         "email": "iit2022004@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/vatsal.jpg"
       },
       {
         "name": "Rishi Upadhyay",
         "role": "B.Tech Student",
         "email": "iit2022013@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/rishi.jpg"
       },
       {
-        "name": "Siddharth Singh",
+        "name": "Jatin Soni",
         "role": "B.Tech Student",
         "email": "iit2022003@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/jatin.jpg"
       },
       {
         "name": "Harshal Gainer",
         "role": "B.Tech Student",
         "email": "iit2022104@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/harshal.jpg"
       },
       {
         "name": "Vineesh Mittal",
         "role": "B.Tech Student",
         "email": "iit2022036@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/vineesh.jpg"
       },
       {
         "name": "Swaroop Dora",
         "role": "B.Tech Student",
         "email": "iit2022052@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/swaroop.jpg"
       },
       {
         "name": "Piyush Tiwari",
         "role": "B.Tech Student",
         "email": "iit2022020@iiita.ac.in",
-        "image": "/image.jpg"
+        "image": "/btech/piyush.jpg"
       }
     ]
   },

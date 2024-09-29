@@ -20,11 +20,9 @@ export default function GetInTouch() {
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = () => {
     setLoading(true);
-    e.preventDefault();
     const { name, email, subject, message } = formData;
-    console.log(name, email, subject, message);
     const url = `https://docs.google.com/forms/d/e/1FAIpQLSddhLjTc0u_GppyWpR_M_DnUKPH1WfEJUMWQ6DUxkpGlMxPOQ/formResponse?&submit=Submit?usp=pp_url&entry.1417599073=${encodeURIComponent(
       name
     )}&entry.1632153933=${encodeURIComponent(
@@ -65,7 +63,7 @@ export default function GetInTouch() {
         src="https://docs.google.com/forms/d/e/1FAIpQLSddhLjTc0u_GppyWpR_M_DnUKPH1WfEJUMWQ6DUxkpGlMxPOQ/viewform?embedded=true"
         className="hidden"
       />
-      <form target="">
+      <form action={handleSubmit}>
         <div className="mb-4">
           <label
             htmlFor="name"
@@ -138,7 +136,6 @@ export default function GetInTouch() {
           variant={"outline"}
           disabled={loading}
           type="submit"
-          onSubmit={handleSubmit}
           className={`hover:text-white transition-colors bg-zinc-100 hover:bg-zinc-900`}
         >
           {" "}

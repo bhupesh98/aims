@@ -30,7 +30,7 @@ export default function TeamMember({
             alt={person.name}
             width={170}
             height={170}
-            className="rounded-full"
+            className="object-cover rounded-full"
           />
 
           <center>
@@ -54,7 +54,7 @@ export default function TeamMember({
             alt={person.name}
             width={80}
             height={80}
-            className="object-contain rounded-lg"
+            className="object-cover rounded-lg"
           />
           <div>
             <a href={person.link}>

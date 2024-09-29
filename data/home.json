@@ -6,5 +6,25 @@
     "aboutUs": [
         "The Indian Institute of Information Technology, Allahabad (IIIT-Allahabad), is a public university located in Jhalwa, Prayagraj district, in Uttar Pradesh. It is one of the twenty-five Indian Institutes of Information Technology listed by the Ministry of Education (India), and is classified as an Institute of National Importance.",
         "The institute undertakes research in diverse interdisciplinary areas where there is a significant application of Information Technologies. It has state-of-the-art laboratories for use by all students and faculty members working in related areas, and encourages the participation of researchers from different disciplines and departments in such sponsored research activities."
+    ],
+    "carousel": [
+        {
+            "title": "Consensun Model",
+            "description": "This project focuses on consensus and obstacle avoidance in swarm robotics using various models, including the voter model, HK model, and majority rule model. The objective is to simulate and analyze how different decision-making strategies can be applied to swarms to achieve efficient navigation and obstacle avoidance.",
+            "image": "/carousel-behavior.jpg",
+            "alt": "Consensus Model Image"
+        },
+        {
+            "title": "Snake AI",
+            "description": "SNAKE_AI is an AI-driven implementation of the classic Snake game. The project utilizes the Deep Q-Network (DQN) algorithm, a reinforcement learning technique, to train an intelligent agent capable of mastering the game. The agent learns to navigate the game grid, collect food, grow in length, and avoid collisions with itself and obstacles, demonstrating strategic gameplay and achieving high scores.",
+            "image": "/carousel-behavior.jpg",
+            "alt": "Snake AI Image"
+        },
+        {
+            "title": "Project Gamma",
+            "description": "Exploring the frontiers of quantum computing.",
+            "image": "/carousel-behavior.jpg",
+            "alt": "Project Gammea Image"
+        }
     ]
 }

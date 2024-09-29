@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import React from "react";
 import { CarouselApi } from "./ui/carousel";
-import project from "@/data/research.json";
+import { carousel } from "@/data/home.json";
 import Image from "next/image";
 import { Button } from "./ui/button";
 
@@ -35,7 +35,7 @@ export default function HomeCarousel() {
       <Carousel setApi={setApi} className="w-full">
         <CarouselPrevious/>
         <CarouselContent className="m-2">
-          {project.slice(0, 5).map((slide) => (
+          {carousel.map((slide) => (
             <CarouselItem
               key={slide.title}
               className="border rounded-lg m-2 p-4 flex flex-col md:flex-row gap-4"
@@ -59,7 +59,7 @@ export default function HomeCarousel() {
         <CarouselNext/>
       </Carousel>
       <div className="py-2 text-center">
-        {project.slice(0,5).map((_, index) => (
+        {carousel.slice(0,5).map((_, index) => (
             <Button
                 key={index}
                 variant='ghost'

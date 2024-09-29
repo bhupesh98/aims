@@ -28,6 +28,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <h2 className="text-3xl font-semibold text-red-700">Latest Projects</h2>
       <HomeCarousel/>
     </div>
   );
