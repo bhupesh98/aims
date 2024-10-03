@@ -51,7 +51,7 @@ export default function Team() {
                   {category.name}
                 </h2>
                 <div
-                  className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4`}
+                  className={`grid grid-cols-1 sm:grid-cols-2 ${category.size === "large" ? 'xl:grid-cols-2' : 'xl:grid-cols-3'} gap-4`}
                 >
                   {category.members.map((person) => (
                     <TeamMember

@@ -24,6 +24,29 @@ export default function TeamMember({
 
     case CardSize.LARGE:
       return (
+        <div className="border p-4 rounded-lg hover:shadow-lg transition-shadow flex items-center gap-4">
+          <Image
+            src={person.image!}
+            alt={person.name}
+            width={150}
+            height={150}
+            className="object-cover rounded-md"
+          />
+          <div>
+            <a href={person.link}>
+              <h3 className={`text-xl ${ person.link && 'transition-colors hover:text-red-600 hover:underline underline-offset-4'}  font-semibold mt-2`}>{person.name}</h3>
+            </a>
+            <p className="text-gray-600">{person.role}</p>
+            <p className="text-sm">{person.researchInterest}</p>
+            <a href={`mailto: ${person.email}`} className="underline">
+              {person.email}
+            </a>
+          </div>
+        </div>
+      )
+
+    case CardSize.EXTRA_LARGE:
+      return (
         <div className="border p-4 rounded-lg hover:shadow-lg transition-shadow flex flex-col items-center">
           <Image
             src={person.image!}
@@ -38,7 +61,7 @@ export default function TeamMember({
               <h3 className={`text-xl ${ person.link && 'transition-colors hover:text-red-600 hover:underline underline-offset-4'}  font-semibold mt-2`}>{person.name}</h3>
             </a>
             <p className="text-gray-600">{person.role}</p>
-            <p className="">{person.researchInterest}</p>
+            <p>{person.researchInterest}</p>
             <a href={`mailto: ${person.email}`} className="underline">
               {person.email}
             </a>

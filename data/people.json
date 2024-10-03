@@ -1,7 +1,7 @@
 [
   {
     "name": "Faculty",
-    "size": "large",
+    "size": "extra-large",
     "members": [
       {
         "name": "Prof. Shekhar Verma",
@@ -39,7 +39,7 @@
   },
   {
     "name": "PhD Scholars",
-    "size": "medium",
+    "size": "large",
     "members": [
       {
         "name": "Arindam Ghosh",
@@ -52,7 +52,7 @@
   },
   {
     "name": "Masters Students",
-    "size": "medium",
+    "size": "large",
     "members":[
       {
         "name": "Atul Chourasia",
