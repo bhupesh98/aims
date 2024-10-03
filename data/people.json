@@ -30,7 +30,7 @@
       {
         "name": "Dr. Muneendra Ojha",
         "role": "Assistant Professor",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
+        "researchInterest": "Deep Reinforcement Learning, Swarm Optimization, Multi Agent Systems, Deep Learning, Machine Learning, Natural Language Processing",
         "email": "muneendra@iiita.ac.in",
         "link": "https://it.iiita.ac.in/?pg=facultypage&uid=muneendrain",
         "image": "/faculty/muneendra.jpg"
@@ -44,7 +44,7 @@
       {
         "name": "Arindam Ghosh",
         "role": "PhD Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
+        "researchInterest": "Artificial Intelligence, Deep Reinforcement Learning, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics",
         "email": "rsi2021001@iiita.ac.in",
         "image": "/phd/arindam.jpg"
       }
