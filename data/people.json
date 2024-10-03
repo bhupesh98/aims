@@ -56,28 +56,28 @@
     "members":[
       {
         "name": "Atul Chourasia",
-        "role": "MTech Student",
+        "role": "M.Tech Student",
         "researchInterest": "Natural Language Processing, Large Language Model, Knowledge Graph",
         "email": "mhc2023002@iiita.ac.in",
         "image": "/mtech/atul.jpg"
       },
       {
         "name": "Manu Pande",
-        "role": "MTech Student",
+        "role": "M.Tech Student",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "mml2023005@iiita.ac.in",
         "image": "/mtech/manu.jpg"
       },
       {
         "name": "Anay Yatin Damle",
-        "role": "MTech Student",
+        "role": "M.Tech Student",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "mml2023016@iiita.ac.in",
         "image": "/mtech/anay.jpg"
       },
       {
         "name": "Shahil Kumar",
-        "role": "MTech Student",
+        "role": "M.Tech Student",
         "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
         "email": "mml2023008@iiita.ac.in",
         "image": "/mtech/shahil.jpg"
