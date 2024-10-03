@@ -64,21 +64,21 @@
       {
         "name": "Manu Pande",
         "role": "M.Tech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
+        "researchInterest": "Document Reranking, Tokenization, Natural Language Processing, Large Language Model, Generative AI",
         "email": "mml2023005@iiita.ac.in",
         "image": "/mtech/manu.jpg"
       },
       {
         "name": "Anay Yatin Damle",
         "role": "M.Tech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
+        "researchInterest": "Document Ranking using Auto Encoder and Attention Mechanism, Natural Language Processing, Large Language Model, Generative AI",
         "email": "mml2023016@iiita.ac.in",
         "image": "/mtech/anay.jpg"
       },
       {
         "name": "Shahil Kumar",
         "role": "M.Tech Student",
-        "researchInterest": "Artificial Intelligence, Machine Learning, Deep Learning, Multi Agent System, Swarm Robotics, Deep Reinforcement Learning",
+        "researchInterest": "Document Ranking using RAG, Natural Language Processing, Large Language Model, Generative AI",
         "email": "mml2023008@iiita.ac.in",
         "image": "/mtech/shahil.jpg"
       }
