@@ -12,35 +12,33 @@
     },
     {
         "title": "Multi-Robot Path Planning for Comprehensive Area Coverage in Complex Environments",
-        "authors": "Manish Kumar, Arindam Ghosh, Muneendra Ojha",
+        "authors": "Manish Kumar, Arindam Ghosh & Muneendra Ojha",
         "journal": "28th International Conference on Methods and Models in Automation and Robotics (MMAR), Poland",
         "year": 2024,
         "links": {
             "website": "https://ieeexplore.ieee.org/document/10680839",
             "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10680839",
-            "github": "https://github.com"
         }
     },
     {
-        "title": "Quantum Computing: The Next Frontier",
-        "authors": "Charlie Brown, Diana Prince",
-        "journal": "Quantum Science Review",
+        "title": "Integrating Particle Swarm Optimization with Reinforcement Learning: A Promising Approach to Optimization",
+        "authors": "Arindam Ghosh, Ojaswita Tiwari, Krishna Pratap Singh & Muneendra Ojha",
+        "book": "Advanced Machine Learning with Evolutionary and Metaheuristic Techniques",
+        "journal": "Computational Intelligence Methods and Applications. Springer, Singapore",
+        "year": 2024,
+        "links": {
+            "website": "https://link.springer.com/chapter/10.1007/978-981-99-9718-3_5",
+            "pdf": "https://link.springer.com/content/pdf/10.1007/978-981-99-9718-3.pdf",
+        }
+    },
+    {
+        "title": "A Comparative Study on Grid-Based and Non-grid-based Path Planning Algorithm",
+        "authors": "Arindam Ghosh, Muneendra Ojha & Krishna Pratap Singh",
+        "journal": "8th International Conference on Control and Robotics Engineering (ICCRE), Niigata, Japan",
         "year": 2023,
         "links": {
-            "website": "https://iiita.ac.in",
-            "pdf": "https://iiita.ac.in",
-            "github": "https://github.com"
-        }
-    },
-    {
-        "title": "Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners",
-        "authors": "Yue Yang*, Fan-Yun Sun*, Luca Weihs*, Eli VanderBilt, Alvaro Herrasti, Winson Han, Jiajun Wu, Nick Haber, Ranjay Krishna, Lingjie Liu, Chris Callison-Burch, Mark Yatskar, Aniruddha Kembhavi, Christopher Clark",
-        "journal": "CVPR",
-        "year": 2021,
-        "links": {
-            "website": "https://arxiv.org/abs/2103.11543",
-            "pdf": "https://arxiv.org/pdf/2103.11543.pdf",
-            "github": "https://github.com"
+            "website": "https://ieeexplore.ieee.org/abstract/document/10155580",
+            "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10155580",
         }
     }
 ]
