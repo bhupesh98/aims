@@ -64,6 +64,7 @@ export function Navbar() {
                 <li key={item.name}>
                   <Link
                     href={item.path}
+                    onClick={() => setIsMobileMenuOpen(false)}
                     className={`block px-3 py-2 rounded-md transition-colors text-sm font-medium ${
                       pathname === item.path
                         ? "bg-red-100 text-red-900"

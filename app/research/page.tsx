@@ -18,13 +18,13 @@ export default function Projects() {
       />
       <div className="flex flex-col gap-6">
         {filteredProjects.length ? filteredProjects.map((project) => (
-          <div key={project.title} className="bg-white border gap-4 p-4 rounded-lg shadow-md flex">
+          <div key={project.title} className="bg-white border gap-4 p-4 rounded-lg shadow-md flex flex-col md:flex-row">
             <Image
               src={project.image}
               alt={project.title}
               width={300}
               height={200}
-              className="object-contain rounded"
+              className="object-contain rounded self-center"
             />
             <div className="flex flex-col">
               <h3 className="text-xl underline font-semibold mb-2">{project.title}</h3>

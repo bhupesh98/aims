@@ -33,7 +33,7 @@ export default function HomeCarousel() {
   return (
     <>
       <Carousel setApi={setApi} className="w-full">
-        <CarouselPrevious/>
+        <CarouselPrevious className="hidden md:flex"/>
         <CarouselContent className="m-2">
           {carousel.map((slide) => (
             <CarouselItem
@@ -45,7 +45,7 @@ export default function HomeCarousel() {
                 alt={slide.alt}
                 width={400}
                 height={300}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg self-center"
               />
               <div>
                 <h3 className="text-lg font-semibold mt-2 pb-2">
@@ -56,7 +56,7 @@ export default function HomeCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselNext/>
+        <CarouselNext className="hidden md:flex"/>
       </Carousel>
       <div className="py-2 text-center">
         {carousel.slice(0,5).map((_, index) => (
