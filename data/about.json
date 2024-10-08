@@ -5,36 +5,32 @@
     },
     {
         "title": "Mission",
-        "content": "Our mission is to advance the state-of-the-art in artificial intelligence and multi-agent systems, with a focus on reinforcement learning and natural language processing. We are committed to producing high-impact research, fostering a diverse and inclusive research community, and promoting ethical AI practices. We strive to create a supportive and collaborative environment that enables our members to reach their full potential and make meaningful contributions to the field of AI.",
+        "content": "At AIMS Lab, our mission is to advance cutting-edge research in Swarm Intelligence, Multi-Agent Systems (MAS), Language Models, and Generative AI, driving innovation in autonomous decision-making and cooperative behaviour. We are committed to developing scalable, intelligent systems that address real-world robotics and health sector challenges. Through interdisciplinary collaboration, we aim to push the boundaries of AI research while fostering an inclusive, diverse research community that encourages ethical AI practices. By cultivating partnerships with academic institutions, industry, and global organisations, we strive to create impactful AI solutions that contribute to societal advancement.",
         "subcontent": [
             {
-                "title": "Drive Cutting-Edge Research:",
-                "content": "Conduct groundbreaking research in reinforcement learning (RL) and natural language processing (NLP) to solve complex, real-world problems and advance the theoretical understanding of AI. Explore interdisciplinary research opportunities that integrate AI with fields such as robotics, healthcare, finance, and environmental science to create impactful solutions."
+                "title": "Drive Innovative Research:",
+                "content": "Advance the frontiers of Swarm Intelligence, Multi-Agent Systems (MAS), Language Models, and Generative AI to develop intelligent systems capable of autonomous decision-making, collaboration, and adaptation in dynamic environments."
             },
             {
-                "title": "Foster Educational Excellence:",
-                "content": "Develop and deliver comprehensive and forward-thinking curricula in AI, RL, and NLP that equip students with the knowledge and skills necessary to become leaders in academia, industry, and research. Provide hands-on learning experiences through labs, projects, internships, and industry collaborations, ensuring students can apply theoretical knowledge to practical challenges."
+                "title": "Solve Real-World Problems:",
+                "content": "Focus on creating scalable and decentralised solutions to address challenges in fields like robotics, the health sector and beyond."
             },
             {
-                "title": "Promote Collaborative Ecosystems:",
-                "content": "Build robust partnerships with leading academic institutions, industry leaders, and governmental organizations to facilitate knowledge exchange, joint research initiatives, and real-world application of AI technologies. Engage in international collaborations and actively participate in global conferences, workshops, and symposiums to stay at the forefront of AI advancements."
+                "title": "Foster a Collaborative Research Environment:",
+                "content": "Cultivate an inclusive, diverse, and ethical research community where creativity and innovation thrive, enabling researchers to explore interdisciplinary opportunities and make high-impact contributions."
             },
             {
-                "title": "Engage with the Community:",
-                "content": "Organize outreach programs, workshops, and seminars to raise awareness about AI, its potential, and its ethical implications, fostering a well-informed and engaged community. Host hackathons, competitions, and innovation challenges to inspire creativity and collaboration among students, researchers, and practitioners."
+                "title": "Engage with Society:",
+                "content": "Organise workshops, seminars, and outreach programs to raise awareness about AI’s potential and ethical implications, while inspiring innovation through hackathons, competitions, and community-driven events."
             },
-            {
-                "title": "Champion Ethical and Responsible AI:",
-                "content": "Develop and adhere to ethical guidelines and best practices for the development and deployment of AI systems, ensuring they are transparent, fair, and aligned with societal values. Conduct research on the ethical, social, and economic implications of AI and multi-agent systems, promoting technologies that benefit all segments of society. Advocate for diversity and inclusion in AI research and education, ensuring a wide range of perspectives and equitable access to AI technologies."
-            }
         ]
     },
     {
         "title": "Values",
-        "content": "Our lab values excellence, integrity, diversity, collaboration, and innovation. We are committed to conducting research that is rigorous, ethical, and impactful. We believe that diversity and inclusion are essential for fostering creativity and innovation. We are dedicated to building a supportive and collaborative research community that encourages open communication, mutual respect, and continuous learning. We are passionate about pushing the boundaries of knowledge and developing cutting-edge AI technologies that have a positive impact on society."
+        "content": "At AIMS Lab, we uphold excellence, integrity, diversity, collaboration, and innovation as our core values. We strive for rigorous, ethical, and impactful research, believing that diverse perspectives and inclusive environments fuel creativity. By fostering a collaborative and supportive community, we encourage open communication, mutual respect, and continuous learning, all while pushing the boundaries of AI research."
     },
     {
         "title": null,
-        "content": "By pursuing these goals, the Artificial Intelligence and Multi-Agent Systems Lab at IIIT Allahabad is committed to creating a transformative impact on society, driving innovation, and fostering a future where intelligent systems work harmoniously with humans for the betterment of all. "
+        "content": "Our mission is to drive transformative advancements in Swarm Intelligence, Multi-Agent Systems, Language Models, and Generative AI. By adhering to our values, we aim to develop intelligent systems that harmoniously work with humans, addressing real-world challenges and contributing positively to society’s progress. "
     }
 ]
