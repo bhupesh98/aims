@@ -9,7 +9,7 @@
     ],
     "carousel": [
         {
-            "title": "Consensun Model",
+            "title": "Consensus Model",
             "description": "This project focuses on consensus and obstacle avoidance in swarm robotics using various models, including the voter model, HK model, and majority rule model. The objective is to simulate and analyze how different decision-making strategies can be applied to swarms to achieve efficient navigation and obstacle avoidance.",
             "image": "/carousel-behavior.jpg",
             "alt": "Consensus Model Image"
