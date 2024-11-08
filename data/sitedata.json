@@ -67,7 +67,7 @@
     "Information": [
       {
         "name": "Alumni",
-        "url": "https://www.iiita.ac.in"
+        "url": "https://www.alumni.iiita.ac.in"
       },
       {
         "name": "Workshops",
@@ -94,6 +94,6 @@
       "twitter": "https://twitter.com/",
       "facebook": "https://www.facebook.com/"
     },
-    "mapsLocationURL": ""
+    "mapsLocationURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d432.08550966029776!2d81.77211555777353!3d25.430563609017632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398533536a634e3f%3A0xbbe0caf1849f206e!2sComputer%20Center%202%2C%20IIITA%2C%20Indian%20Institute%20of%20Information%20Technology%2C%20Jhalwa%2C%20Chak%20Dadanpur%2C%20Prayagraj%2C%20Uttar%20Pradesh%20211011!5e0!3m2!1sen!2sin!4v1727344619599!5m2!1sen!2sin"
   }
 }
